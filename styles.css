@@ -1,25 +1,17 @@
 body {
-    background-color: #110011;
-}
-.text {
+    background-color: #141d26;
     color: #fff;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+#title {
+    text-align: center;
 }
 #photo {
     width: 250px;
 }
-
-p {
-    color: #fff;
-}
-
-h2 {
-    color: #fff;
-}
-
-li {
-    color: #fff;
-}
-
 a {
-    color: #ab26ab;
+    color: #34ffe1;
 }
