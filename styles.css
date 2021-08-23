@@ -1,17 +1,40 @@
-body {
+* {
     background-color: #141d26;
     color: #fff;
+    margin: 20 auto;
 }
-.header {
-    display: flex;
-    justify-content: center;
+
+body {
+    padding: 1%;
 }
+
+a {
+    color: #34ffe1;
+}
+
 #title {
     text-align: center;
 }
-#photo {
-    width: 250px;
+
+.image-container {
+    height: 250px;
+    position: relative;
 }
-a {
-    color: #34ffe1;
+
+#photo {
+    width: 300px;
+    float: left;
+    padding: 10px;
+    background-color: #34ffe1;
+}
+
+.about-container {
+    position: absolute;
+    top: 20%;
+    right: 0px;
+}
+
+.hard-skills li:nth-child(odd), .soft-skills li:nth-child(odd) {
+    font-style: italic;
+    color: grey;
 }
